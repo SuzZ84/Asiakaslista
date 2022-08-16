@@ -36,7 +36,7 @@ class MessagesController extends Controller
 
       // rederect
 
-      return redirect('/')->with('success', 'Message Sent');
+      return redirect('/')->with('success', trans('messages.successf') );
 
     }
 

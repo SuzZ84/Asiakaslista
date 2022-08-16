@@ -2,6 +2,8 @@
  
 return [
 
+    'successf' => 'Customer added succesfully',
+
     /* navbarmenu */
     'title' => 'Customer Lists',
     'homenav' => 'Home',
@@ -40,6 +42,17 @@ return [
     'email' => 'Email',
     'started' => 'Started At',
     'notes' => 'Notes',
+
+    /* Contact placeholders */
+
+    'firstnameplaceholder' => 'Enter First Name',
+    'lastnameplaceholder' => 'Enter Last Name',
+    'addressplaceholder' => 'Enter Address',
+    'cityplaceholder' => 'Enter City',
+    'zipplaceholder' => 'Enter Zip',
+    'emailplaceholder' => 'Enter@email.com',
+    'notesplaceholder' => 'Enter Notes'
+
 
 ];
 

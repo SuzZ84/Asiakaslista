@@ -2,6 +2,7 @@
  
 return [
 
+    'successf' => 'Asiakas lisätty onnistuneesti!',
     /* navbarmenu */
     'title' => 'Asiakaslistat',
     'homenav' => 'Kotisivu',
@@ -41,5 +42,17 @@ return [
     'email' => 'Sähköposti',
     'started' => 'Aloitti',
     'notes' => 'Huom.',
+    /* contact Palceholders*/
+
+    'firstnameplaceholder' => 'Etunimi',
+    'lastnameplaceholder' => 'Sukunimi',
+    'addressplaceholder' => 'Katuosoite',
+    'cityplaceholder' => 'Kaupunki',
+    'zipplaceholder' => 'Postinumero',
+    'emailplaceholder' => 'Syötä@sähköposti.com',
+    'notesplaceholder' => 'Muistiinpanoja'
+
+
+
     
 ];
